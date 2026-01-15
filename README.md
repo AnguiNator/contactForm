@@ -11,10 +11,10 @@ Este proyecto es un reto de **Frontend Mentor** donde construí un **formulario 
 ![Desktop](./screenshots/desktop.png)
 
 ### ❌ Vista Error
-(./screenshots/error.png)
+![error](./screenshots/error.png)
 
 ### ✅ Vista Enviado
-(./screenshots/message.png)
+![message](./screenshots/message.png)
 
 ---
 
