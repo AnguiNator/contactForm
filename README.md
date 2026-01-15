@@ -1,16 +1,47 @@
-# React + Vite
+# 📌 Contact Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Descripción  
+Este proyecto es un reto de **Frontend Mentor** donde construí un **formulario de contacto responsive** con validaciones nativas del navegador. El objetivo fue replicar el diseño en **mobile y desktop**, manejar el envío del formulario y mostrar una **notificación de éxito** al enviarse correctamente.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Capturas de pantalla
 
-## React Compiler
+### 💻 Vista Desktop
+![Desktop](./screenshots/desktop.png)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### ❌ Vista Error
+(./screenshots/error.png)
 
-## Expanding the ESLint configuration
+### ✅ Vista Enviado
+(./screenshots/message.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tecnologías utilizadas
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- HTML5
+- CSS (custom properties y estilos globales)
+- ESLint
+
+---
+
+## 🚀 Retos
+- Dividir el formulario en **componentes reutilizables** para mantener el código limpio y escalable.  
+- Controlar el **estado de envío** para mostrar y ocultar la notificación usando `useState` y `useEffect`.  
+- Aplicar validaciones visuales combinando **validación nativa del navegador** con utilidades de Tailwind (`peer`, `user-invalid`).
+
+---
+
+## 📚 Aprendizajes
+- Aprovechar la validación HTML para reducir lógica innecesaria en JavaScript.  
+- Mejorar la organización del proyecto usando componentes pequeños y enfocados.  
+- Implementar una notificación temporal controlada por estado en React.
+
+---
+
+## 👨‍💻 Autor
+**Jesus Anguiano**

@@ -6,7 +6,6 @@ import { Notification } from "./Notification"
 import { useEffect, useState } from "react"
 
 export function Form() {
-    // const [radio, setRadio] = useState(null);
     const [enviado, setEnviado] = useState(false);
 
     const handleSubmit = (e) => {
@@ -15,7 +14,6 @@ export function Form() {
 
         console.log("formulario enviado")
 
-        // setRadio(null)
         e.target.reset();
         setEnviado(true)
     }
