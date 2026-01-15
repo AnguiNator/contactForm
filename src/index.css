@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@utility heading {
+  @apply text-[2rem] leading-[100%] -tracking-[0.06rem] font-bold;
+}
+
+@utility body-m-Bold {
+  @apply text-lg leading-[150%] tracking-normal font-bold;
+}
+
+@utility body-m-Regular {
+  @apply text-lg leading-[100%] tracking-normal font-normal;
+}
+
+@utility body-ms {
+  @apply text-base leading-[100%] tracking-normal font-normal;
+}
+
+
+@theme {
+  --color-grey500: #86A2A5;
+  --color-grey900: #2A4144;
+  --color-green200: #E0F1E8;
+  --color-green600: #0C7D69;
+  --color-redError: #D73C3C;
+
+}
+
+body {
+  background-color: var(--color-green200);
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px;
+
+}
